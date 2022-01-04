@@ -21,3 +21,6 @@ fun colecoes(){
     var dictImutavel = mapOf<Int, Int>(Pair(2, 4), Pair(3, 9))
 }
 
+fun funcoes(){
+
+}
