@@ -1,5 +1,5 @@
 # Kotlin Básico 1
-Sessões inspiradas
+Aprendizagem sobre Kotlin. 
 
 
 Aprendizagem sobre Kotlin. 
