@@ -32,6 +32,13 @@ fun tipos(){
     println("Short: " + "Valor minimo: " + Short.MIN_VALUE + " Valor máximo: " + Short.MAX_VALUE)
     println("Byte: " + "Valor minimo: " + Byte.MIN_VALUE + " Valor máximo: " + Byte.MAX_VALUE)
 
+    // Os valores abaixo aceita o modificação Unsigned (se sinais)
+
+    println("ULong: " + "Valor minimo: " + ULong.MIN_VALUE + " Valor máximo: " + Long.MAX_VALUE)
+    println("UInt: " + "Valor minimo: " + UInt.MIN_VALUE + " Valor máximo: " + Int.MAX_VALUE)
+    println("UShort: " + "Valor minimo: " + UShort.MIN_VALUE + " Valor máximo: " + Short.MAX_VALUE)
+    println("UByte: " + "Valor minimo: " + UByte.MIN_VALUE + " Valor máximo: " + Byte.MAX_VALUE)
+
 }
 
 // Operadores
@@ -77,5 +84,12 @@ fun conversao(){
     println(valor.toFloat())
     println(valor.toDouble())
     println(valor.toByte())
+
+}
+
+fun leitura(){
+
+    readLine() // Lê uma linha / retorna sempre um string
+
 
 }
