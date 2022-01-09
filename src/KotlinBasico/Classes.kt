@@ -44,6 +44,24 @@ enum class Meses(var num: Int, var nome: String){
 
 }
 
-    // Uso do Data Class (struct)
+class Pessoa(var nome: String?){
+
+    // com lateinit é possível inicializar a variável depois, mesmo sem permitir null para ela
+    lateinit var sobrenome: String
+    // init roda sempre que instancia um objeto
+    init{
+        if(nome==null){
+            nome = "Rafael"
+        }
+    }
+
+    fun Sobrenome(sobrenome: String){
+        this.sobrenome = sobrenome
+    }
+
+}
+
+// Uso do Data Class (struct)
 
 data class carro(val cor:String, val ano:Int)
+
