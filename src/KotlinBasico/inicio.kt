@@ -87,9 +87,8 @@ fun conversao(){
 
 }
 
-fun leitura(){
+fun leitura(): String? {
 
-    readLine() // Lê uma linha / retorna sempre um string
-
+    return readLine() // Lê uma linha / retorna sempre um string
 
 }
